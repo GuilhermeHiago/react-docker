@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+    app:
+        container_name: react-docker
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - '.:/app'
+            - '/app/node_modules'
+        ports:
+            - '8080:8081'
+        environment:
+            - NODE_ENV=development

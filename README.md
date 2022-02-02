@@ -5,8 +5,8 @@ Projeto de app base React com container configurado utilizando Docker e Docker C
 Basta clonar o repositório e instalar os softwares listados em pré-requisitos
 
 ### 📋 Pré-requisitos
-* Docker[https://docs.docker.com/desktop/windows/install/]
-* Docker-Compose[https://docs.docker.com/compose/install/]
+* [Docker](https://docs.docker.com/desktop/windows/install/)
+* [Docker-Compose](https://docs.docker.com/compose/install/)
 
 
 ### Build
@@ -29,4 +29,5 @@ Adicione notas adicionais sobre como implantar isso em um sistema ativo
 * [Docker](https://docs.docker.com) - Software utilizado na criação de containers
 
 ## 🐋 Docker
-O Dockerfile do projeto utiliza a imagem node:16.13.2-alpine3.14 e utiliza a porta 8081 como padrão
+* O Dockerfile do projeto utiliza a imagem node:16.13.2-alpine3.14 e utiliza a porta 8081 como padrão.
+* O Docker-Compose utiliza versão 3.7, esta configurado como ambiente de desenvolvimento e conecta a porta 8081 do container à porta local 8080.

@@ -16,7 +16,10 @@ sudo docker-compose up -d --build
 ```
 
 ### Run
-O projeto vai rodar automaticamente ao ser construido usando docker-compose, basta acessar localhost:8080
+O projeto vai rodar automaticamente ao ser construido usando docker-compose, basta acessar localhost:8080. Caso deseje parar o container basta rodar o comando:
+```
+sudo docker stop react-docker
+```
 
 ## 📦 Desenvolvimento
 

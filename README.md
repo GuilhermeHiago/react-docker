@@ -11,7 +11,8 @@ Basta clonar o repositório e instalar os softwares listados em pré-requisitos
 
 ### Build
 Para construir o projeto é nescessario rodar:
-```sudo docker-compose up -d --build
+```
+sudo docker-compose up -d --build
 ```
 
 ### Run

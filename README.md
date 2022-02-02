@@ -1,7 +1,7 @@
 # React Docker
 Projeto de app base React com container configurado utilizando Docker e Docker Compose.
 
-## Começando
+## 🚀 Começando
 Basta clonar o repositório e instalar os softwares listados em pré-requisitos
 
 ### 📋 Pré-requisitos
@@ -9,21 +9,17 @@ Basta clonar o repositório e instalar os softwares listados em pré-requisitos
 * [Docker-Compose](https://docs.docker.com/compose/install/)
 
 
-### Build
+### 🔧 Build
 Para construir o projeto é nescessario rodar:
 ```
 sudo docker-compose up -d --build
 ```
 
-### Run
+### ⚙️ Run
 O projeto vai rodar automaticamente ao ser construido usando docker-compose, basta acessar localhost:8080. Caso deseje parar o container basta rodar o comando:
 ```
 sudo docker stop react-docker
 ```
-
-## 📦 Desenvolvimento
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## 🛠️ Construído com
 
